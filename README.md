@@ -14,3 +14,6 @@ You’ll also need the dotenv packageLinks to an external site. to use environme
 # Screenshots 
 ![techblogmain](./techblogMain.png)
 ![techblogsignup](./techblogSignUp.png)
+
+
+# Deployed [Link] (https://mvc-tech-blog-challenge14.herokuapp.com/)
