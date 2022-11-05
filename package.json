@@ -1,35 +1,35 @@
 {
-  "name": "mvc-tech-blog",
+  "name": "challenge14_mvctechblog",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  
+  "description": "Using MVC paradigm in the code architectural structure, Handlebars.js as the templating language, Swquelize as the ORM and express-session npm packgae for authentication, a CMS-style blog site similar to a Wordpress site, will be built for developers to publish their blog posts and comment on other developer's post as well.",
+  "main": "connection.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mlmcdan1/Challenge14-MVCTechBlog.git"
+    "url": "git+https://github.com/pppreap/challenge14_mvctechblog.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mlmcdan1/Challenge14-MVCTechBlog/issues"
+    "url": "https://github.com/pppreap/challenge14_mvctechblog/issues"
   },
-  "homepage": "https://github.com/mlmcdan1/Challenge14-MVCTechBlog#readme",
-
+  "homepage": "https://github.com/pppreap/challenge14_mvctechblog#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.1",
-    "express-session": "^1.17.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.5.0"
-  },
-         "engines": {
-            "node": ">=6.9.0"
-         }
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-router": "^0.0.1",
+    "express-session": "^1.17.3",
+    "express.js": "^1.0.0",
+    "mysql2": "^2.3.3",
+    "node": "^19.0.0",
+    "sequelize": "^6.25.3",
+    "serve": "^14.0.1"
+  }
 }
